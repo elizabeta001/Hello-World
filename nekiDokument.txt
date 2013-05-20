@@ -2,3 +2,4 @@ Ovo je neki dokument! Samo  za potrebe testiranja.
 ...
 
 poseban dodatak za cetvrti commit
+rujec
