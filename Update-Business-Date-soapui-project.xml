@@ -22,6 +22,11 @@
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IComponentSettingsPackage_Update_InputMessage">
+  
+  
+  
+  
+  
     <wsdl:part name="parameters" element="tns:Update"/>
   </wsdl:message>
   <wsdl:message name="IComponentSettingsPackage_Update_OutputMessage">
