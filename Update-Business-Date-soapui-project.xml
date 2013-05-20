@@ -20,6 +20,11 @@
       <xsd:import schemaLocation="http://backend.hetras.int/ComponentSettings-v1-0.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/Hetras.Library.Instrumentation.Errors"/>
       <xsd:import schemaLocation="http://backend.hetras.int/ComponentSettings-v1-0.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/Hetras.Library.DataContract.History.v1_0"/>
     </xsd:schema>
+	
+	
+	
+	
+	
   </wsdl:types>
   <wsdl:message name="IComponentSettingsPackage_Update_InputMessage">
   
