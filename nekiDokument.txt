@@ -1,4 +1,5 @@
 Ovo je neki dokument! Samo  za potrebe testiranja.
 ...
+opla
 
 poseban dodatak za cetvrti commit
