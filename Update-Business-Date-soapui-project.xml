@@ -26,6 +26,7 @@
   </wsdl:message>
   <wsdl:message name="IComponentSettingsPackage_Update_OutputMessage">
     <wsdl:part name="parameters" element="tns:UpdateResponse"/>
+	
   </wsdl:message>
   <wsdl:message name="IComponentSettingsPackage_Request_InputMessage">
     <wsdl:part name="parameters" element="tns:Request"/>
