@@ -9,18 +9,10 @@ git pull
 
 # fail if repository is dirty
 CHECK_STATUS=`git status | grep 'nothing to commit, working directory clean'`
-
-
-
- if [ -z "$CHECK_STATUS" ]; then
-     echo "Your master repository has uncommitted changes. Exiting ...."
-     exit 1
- fi
-   
-  
-
-     exit 1
-
+if [ -z "$CHECK_STATUS" ]; then
+    echo "Your master repository has uncommitted changes. Exiting ...."
+    exit 1
+fi
 
 # tag release branch with the current date stamp
 git checkout release
