@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CURRENT_HEAD=`git rev-parse HEAD` 
+CURRENT_HEAD=`git rev-parse HEAD`
 CURRENT_DATE=`date +"%Y%m%d-%H%M"`
 
 # back to master
@@ -13,6 +13,8 @@ if [ -z "$CHECK_STATUS" ]; then
     echo "Your master repository has uncommitted changes. Exiting ...."
     exit 1
 fi
+
+echo 'Switching to the release branch ....'
 
 # tag release branch with the current date stamp
 git checkout release
