@@ -1,15 +1,11 @@
 #!/bin/bash
-#  switch to release branch and pull 
-#  create tag "release-YYYYMMDD" and push with "push --tags"
-#  switch to master
-#  remove release brach local and remote
-#  pull master
-#  create release branch form master and push
-
 
 CURRENT_HEAD=`git rev-parse HEAD` 
 CURRENT_DATE=`date +"%Y%m%d-%H%M"`
 
+# back to master
+git checkout master
+git pull
 
 # tag release branch with the current date stamp
 git checkout release
